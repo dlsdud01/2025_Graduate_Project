@@ -1,1 +1,1 @@
-# 2025_Gradulate_Project
+# 2025_Graduate_Project
