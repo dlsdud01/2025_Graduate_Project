@@ -1,5 +1,5 @@
 # **2025 한세대학교 졸업프로젝트**
-## **스마트 홈 케어 시스템**
+## **소동물 케어 시스템**
 조장 [최인영](https://github.com/dlsdud01)  
 조원 [문정필](https://github.com/moonjeongpil) [지승용](https://github.com/seungyongjee)
 
