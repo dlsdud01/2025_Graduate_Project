@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    tools:context=".ActivityActivity">
+
+    <LinearLayout
+        android:id="@+id/alarmLayout"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@drawable/rounded_background_pink"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- 제목 -->
+        <TextView
+            android:id="@+id/title_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="알람받기 원하는 항목에 체크"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- 밥 먹는 시간 -->
+        <CheckBox
+            android:id="@+id/eat_check"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/checkbox_rounded_white"
+            android:padding="12dp"
+            android:text="밥 먹는 시간"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- 물 먹는 시간 -->
+        <CheckBox
+            android:id="@+id/water_check"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/checkbox_rounded_white"
+            android:padding="12dp"
+            android:text="물 먹는 시간"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <!-- 운동 시간 -->
+        <CheckBox
+            android:id="@+id/move_check"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/checkbox_rounded_white"
+            android:padding="12dp"
+            android:text="운동 시간"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <!-- 휴식 시간 -->
+        <CheckBox
+            android:id="@+id/rest_check"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/checkbox_rounded_white"
+            android:padding="12dp"
+            android:text="휴식 시간"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
